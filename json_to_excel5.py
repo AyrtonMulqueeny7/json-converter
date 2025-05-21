@@ -10,7 +10,7 @@ from datetime import timezone, timedelta  # ADDED: For timezone handling
 with open('out.json', 'r') as f: #r is read mode
     data = json.load(f)
 
-# Convert to DataFrame
+# Convert to pandasDataFrame
 df = pd.DataFrame(data) # like a temporary db table in memory
 
 
